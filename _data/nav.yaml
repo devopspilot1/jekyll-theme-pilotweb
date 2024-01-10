@@ -1,0 +1,41 @@
+nav-list:
+  - title: Linux
+    url: /nav/linux.html
+
+  - title: Shellscript
+    url: /nav/shellscript.html
+
+  - title: Git
+    url: /nav/git.html
+
+  - title: Maven
+    url: /nav/maven.html
+
+  - title: Tomcat
+    url: /nav/tomcat.html
+
+  - title: Nginx
+    url: /nav/nginx.html
+
+  - title: Jfrog
+    url: /nav/jfrog.html
+
+  - title: Sonarqube
+    url: /nav/sonarqube.html
+
+  - title: Docker
+    url: /nav/docker.html
+
+  - title: Kubernetes
+    url: /nav/kubernetes.html
+
+  - title: Helm
+    url: /nav/helm.html
+
+  - title: Ansible
+    url: /nav/ansible.html
+
+  - title: Terraform
+    url: /nav/terraform.html
+
+  

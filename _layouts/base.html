@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ site.title }}</title>
+  <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+  <header>
+    <div class="top-header">
+      <button class="web-name" href="index.html">Pilotweb</button>
+    </div>
+    <nav class="bottom-header">
+      <ul>
+        {% for item in site.data.nav.nav-list %}
+        <li>
+          <a href="{{ item.url }}">{{ item.title }}</a>
+        </li>
+        {% endfor %}
+      </ul>
+    </nav>
+  </header>
+  <aside class="left-sidebar">
+    <p>left-sidebar</p>
+  </aside>
+  <div class="base-container">
+    <main>
+      {{ content }}
+    </main>
+    <aside class="right-sidebar">
+      <p>right-sidebar</p>
+    </aside>
+    <footer>
+      <p>Copyright &copy; 2024</p>
+    </footer>
+  </div>
+</body>
+</html>
